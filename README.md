@@ -61,5 +61,13 @@ _(Replace with your real Streamlit link after hosting.)_
 ## ScreenShots 
 
 
+![image alt](https://github.com/AdityaSharma283/gold-price-predictor/blob/8b04d300914425c8111e46fc024e400013b50408/Screenshot%202025-04-26%20225346.png)
 
 
+![image alt](https://github.com/AdityaSharma283/gold-price-predictor/blob/8b04d300914425c8111e46fc024e400013b50408/Screenshot%202025-04-26%20225356.png)
+
+
+![image alt](https://github.com/AdityaSharma283/gold-price-predictor/blob/8b04d300914425c8111e46fc024e400013b50408/Screenshot%202025-04-26%20225439.png)
+
+
+---
