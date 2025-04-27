@@ -617,7 +617,6 @@ def display_landing_page():
         # Calculate the 10g prices
         current_price_usd_10g = convert_oz_to_10g(current_price_usd, adjust_for_indian_market=False)
         current_price_inr = current_price_usd * usd_inr_rate
-<<<<<<< HEAD
         
         # Calculate Indian market price
         current_price_inr_10g = convert_oz_to_10g(current_price_inr, adjust_for_indian_market=True, 
@@ -629,9 +628,6 @@ def display_landing_page():
             market_adjustment_factor = calculate_optimal_adjustment_factor(
                 current_price_usd, usd_inr_rate, custom_price)
         
-=======
-        current_price_inr_10g = (current_price_inr / 31.1035) * 10
->>>>>>> 5e4fe4520e383a43297ab79e0272e1763522f285
         monthly_change = (gold_data[close_col].iloc[-1] / gold_data[close_col].iloc[0] - 1) * 100
         weekly_change = (gold_data[close_col].iloc[-1] / gold_data[close_col].iloc[-7] - 1) * 100
         volatility = gold_data[close_col].pct_change().std() * 100
