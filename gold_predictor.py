@@ -218,6 +218,7 @@ def display_landing_page():
         usd_inr_rate = get_usd_to_inr_rate()
         current_price_usd = gold_data[close_col].iloc[-1]
         current_price_inr = current_price_usd * usd_inr_rate
+        current_price_inr_10g = (current_price_inr / 31.1035) * 10
         monthly_change = (gold_data[close_col].iloc[-1] / gold_data[close_col].iloc[0] - 1) * 100
         volatility = gold_data[close_col].pct_change().std() * 100
 
