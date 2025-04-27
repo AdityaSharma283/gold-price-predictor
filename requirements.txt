@@ -1,11 +1,13 @@
 streamlit
-yfinance
 pandas
 numpy
 scikit-learn
 matplotlib
 seaborn
-python-dotenv
+yfinance
 requests
 google-generativeai
+python-dotenv
+plotly
+streamlit-lottie
 
